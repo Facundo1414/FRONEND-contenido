@@ -1,0 +1,55 @@
+body{font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 100%;
+    margin: 0;
+}
+header{
+    width: 1440px;
+    text-align: center;
+}
+.fotoPerfil{
+    text-align: center;
+    width: 100px;
+    height: 146px;
+    border-radius: 255%;
+}
+footer{
+    background-color: #005677;
+    color: #FFFFFF;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+}
+h1{color: #005677;
+    background-color: #C4C4C4;
+    margin-bottom: 10%;
+    font-weight: bold; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+h2{color: #005677;
+    background-color: #C4C4C4;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+    letter-spacing: 5px;
+}
+ul.cursiva > li > span {
+    font-style: italic;
+}
+ul > li > span {
+    font-weight: 600;
+}
+ul.without > li{
+    font-style: normal;
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+ul > li > div.move {
+    text-indent: 5%;
+}
