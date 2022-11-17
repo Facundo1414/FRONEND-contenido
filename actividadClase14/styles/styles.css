@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header, nav, main, footer, .box1, .fotos-box, .text-box, #footerLogo, #footerText{
+    display: flex;}
+header{
+    background-color:#D1891C;
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-left: 3%;
+    line-height: 56px;
+    height: 2%; width: 100%;
+    font-style: normal;
+}
+nav{
+    background-color: #00669F;
+    color: white;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 84px;
+    padding-left: 3%;
+    font-style: normal;
+}
+
+/*  */
+/* Para celular */
+/*  */
+@media (max-width: 480px)
+{
+    main{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 5rem;
+        padding: 3rem 0;
+    }
+    
+    .box1 {/* boxes en general */
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: 45rem;
+    }
+    .fotos-box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height:100%;
+        width:100%;
+    }
+    .fotos-box img{
+        height: 5rem;
+        width: 5rem;
+    }
+    /* cambio de background */ 
+    #fotos-box1 {
+        background-image: url(../img/batmangrupo.png);}
+    #fotos-box2 {
+        background-image: url(../img/Groupmaravilla.png);}
+    #fotos-box3 {
+        background-image: url(../img/Groupsuper.png);}
+    #fotos-box4 {
+        background-image: url(../img/Group\ harley.png);}
+        #fotos-box1, #fotos-box2, #fotos-box3, #fotos-box4 {
+            background-repeat: no-repeat;
+            background-size: cover;}
+    /*  */
+    /* texto del perfil */
+    .text-box {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding-top: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 42px;
+    }
+    /* icono de ver mas */
+    .vermas-box{
+        background: #00669F;
+        border-radius: 7px;
+        margin: .5rem;
+        padding: .5rem;
+        width: 8rem;
+        text-align: center;
+        color: white;
+    }
+    /*  */
+    /* cierre de modo celular */
+}
+
+
+/*  */
+/* Para tablets */
+@media (min-width: 480px)
+{
+    main{
+        align-items: center;
+        width: 100%;
+        gap: 5rem;
+        padding: 3rem 0;
+    }
+    
+    .box1 {/* boxes en general */
+        flex-direction: column;
+        align-items: center;
+        width: 45rem;
+        height: 45rem;
+        padding: 1rem;
+    }
+    .fotos-box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height:100%;
+        width:100%;
+    }
+    .fotos-box img{
+        height: 5rem;
+        width: 5rem;
+    }
+    /* cambio de background */ 
+    #fotos-box1 {
+        background-image: url(../img/batmangrupo.png);}
+    #fotos-box2 {
+        background-image: url(../img/Groupmaravilla.png);}
+    #fotos-box3 {
+        background-image: url(../img/Groupsuper.png);}
+    #fotos-box4 {
+        background-image: url(../img/Group\ harley.png);}
+        #fotos-box1, #fotos-box2, #fotos-box3, #fotos-box4 {
+            background-repeat: no-repeat;
+            background-size: cover;}
+    /*  */
+    /* texto del perfil */
+    .text-box {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding-top: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 42px;
+    }
+    /* icono de ver mas */
+    .vermas-box{
+        background: #00669F;
+        border-radius: 7px;
+        margin: .5rem;
+        padding: .5rem;
+        width: 8rem;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+
+
+
+
+/* footer */
+footer{
+    align-items: center;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+}
+#footerText{
+    justify-content: center;
+    width: 85%;
+    padding-left: 15%;
+    color: wheat;
+}
+#footerLogo{
+    justify-content: flex-end;
+    height: 3.5rem;
+    width: 15%;
+    margin: 1rem;
+    padding-right: 0.5rem;
+}
