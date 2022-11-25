@@ -1,0 +1,566 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* flex */
+footer, .datos-footer, .suscribeteBox1, .suscribeteBox2, .botonesResetP, .suscribete, .botonesReset, .contacto, .boxProdcuto,  h1, #patitaMenu ,main, nav, .bloquePublicidad, #placerPublicidad, #descuentoPublicidad, #comederosPublicidad, .bloqueA, .bloqueB, .bloqueC {
+    display: flex;}
+
+/* celulares */
+@media(max-width:480px)
+{
+
+    /* nav */
+    nav{
+        background-color: #F0A83E;
+        justify-content: space-between;
+        padding: 5% 5%;
+    }
+    /* bloque del fondo de comida */
+    .bloquePublicidad{
+        background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 30rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+    }
+    #placerPublicidad {
+        background-color: #FFFFFF;
+        width: 80%;
+        height: 2rem;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: .5rem;
+    }
+    #descuentoPublicidad {
+        background-color:burlywood;
+        width: 45%;
+        height: 2rem;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding: .2rem;
+        margin-left: 9rem;
+    }
+    #comederosPublicidad {
+        background-color: #F0A83E;
+        color: white;
+        width: 25%;
+        height: 2rem;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: .8rem;
+        margin-left: 9rem;
+    }
+}
+
+/* menu */
+main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* bloque de la patita */
+.bloqueA{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#patitaMenu {
+    width: 6rem;
+    height: 6rem;
+}
+h1 {
+    width: 10rem;
+    height: 6rem;
+    justify-content: center;
+    text-align: center;
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 8%;
+}
+/* bloque de las categorias */
+
+.bloqueB{
+    gap: 2rem;
+    height: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloqueB p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+/* bloque de productos */
+.bloqueC{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding-bottom: 12%;
+}
+.boxProdcuto{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 20rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #3C2313;
+    gap: .5rem;
+}
+.boxProdcuto p{
+    color: #F0A83E;
+}
+
+/* Zona de Contactanos */
+.contacto{
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+}
+#contactanosCont{
+    color: #3C2313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    padding-bottom: 1rem;
+    height: 2rem;
+}
+/* formulario */
+.fondomarronCont{
+    background: #3C2313;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #AB9C9C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 0.9rem;
+    width: 20rem;
+}
+
+/* estilos */
+input:focus, textarea:focus{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+/* box de reset */
+.botonesReset{
+    align-items: center;
+    justify-content: space-between;
+    padding: 15% 3%;
+}
+.botonesResetP{
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 2.7rem;
+    background: #8A8787;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+#p1 {
+    background: #8A8787;
+}
+#p2 {
+    background: #F0A83E;
+}
+/* box suscribete 2 */
+.suscribete{
+    background: #F0A83E;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.suscribeteBox1{
+    align-items: center;
+    padding: 1rem 0 .5rem 0;
+    height: 1rem;
+} 
+.suscribeteBox1 img{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 2%;
+}
+.suscribeteBox1 p{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+    padding-left: 5%;
+}
+.suscribeteBox2{
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0 1rem 0;
+}
+#suscribeteP1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3%;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 67%;
+    color: #A0A0A0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1rem;
+}
+#suscribeteP2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3C2313;
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 20%;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: .5rem;
+}
+
+/* datos zone*/
+.datos-footer{
+    flex-direction: column;
+    background: #3C2313;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 20rem;
+    padding-left: 20%;
+}
+#datos-footerLogo{
+    padding-left: 10%;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color:#222222;
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+
+
+
+
+/*  */
+/* Para Desktop */
+/*  */
+
+@media(min-width:480px)
+{
+
+    /* nav */
+    nav{
+        background-color: #F0A83E;
+        justify-content: space-between;
+        padding: 2% 2%;
+        height: 2rem;
+    }
+    /* bloque del fondo de comida */
+    .bloquePublicidad{
+        background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 2%;
+    }
+    #placerPublicidad {
+        background-color: #FFFFFF;
+        width: 30%;
+        height: 2.3rem;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.3rem;
+        line-height: 3rem;
+        padding: .5rem;
+        margin-right: 5%;
+    }
+    #descuentoPublicidad {
+        width: 25%;
+        height: 1.3rem;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding: .2rem;
+        margin-right: 7.5%;
+    }
+    #comederosPublicidad {
+        background-color: #F0A83E;
+        color: white;
+        width: 10%;
+        height: 2rem;
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: .8rem;
+        margin-right: 14.5%;
+    }
+}
+
+/* menu */
+main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* bloque de la patita */
+.bloqueA{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#patitaMenu {
+    width: 6rem;
+    height: 6rem;
+}
+h1 {
+    width: 10rem;
+    height: 6rem;
+    justify-content: center;
+    text-align: center;
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 8%;
+}
+/* bloque de las categorias */
+
+.bloqueB{
+    gap: 2rem;
+    height: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloqueB p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+/* bloque de productos */
+.bloqueC{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8rem;
+    padding-bottom: 12%;
+}
+.boxProdcuto{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 20rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #3C2313;
+    gap: .5rem;
+}
+.boxProdcuto p{
+    color: #F0A83E;
+}
+
+/* Zona de Contactanos */
+.contacto{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+#contactanosCont{
+    color: #3C2313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 2.8rem;
+    padding-bottom: 1rem;
+    height: 2rem;
+}
+.fondomarronCont{
+    background: #3C2313;
+    border-radius: 2rem;
+    padding: 1rem;
+    color: #AB9C9C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 0.9rem;
+    width: 30rem;
+}
+
+/* box de reset */
+.botonesReset{
+    align-items: center;
+    justify-content: space-between;
+    padding: 8% 33%;
+}
+.botonesResetP{
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 3rem;
+    background: #8A8787;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+#p1 {
+    background: #8A8787;
+}
+#p2 {
+    background: #F0A83E;
+}
+/* box suscribete 2 */
+.suscribete{
+    background: #F0A83E;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.suscribeteBox1{
+    align-items: center;
+    padding: 1rem 0 .5rem 0;
+    height: 1rem;
+    margin-left: 5%;
+    width: 50%;
+} 
+.suscribeteBox1 img{
+    height: 4rem;
+    width: 4rem;
+    padding-left: 2%;
+}
+.suscribeteBox1 p{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    padding-left: 5%;
+}
+.suscribeteBox2{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-right: 5%;
+    width: 50%;
+    gap: .3rem;
+}
+#suscribeteP1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3%;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 60%;
+    color: #A0A0A0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1rem;
+}
+#suscribeteP2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3C2313;
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 20%;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: .5rem;
+}
+
+/* datos zone*/
+.datos-footer{
+    flex-direction: row;
+    background: #3C2313;
+    align-items: center;
+    justify-content: space-between;
+    height: 20rem;
+    padding-left: 10%;
+}
+#datos-footerLogo{
+    padding-right: 10%;
+    order: 2;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    padding: .5%;
+    background-color:#222222;
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+
