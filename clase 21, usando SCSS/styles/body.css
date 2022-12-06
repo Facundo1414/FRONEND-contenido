@@ -1,0 +1,98 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  display: flex;
+  background-color: gray;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  letter-spacing: 0.3rem;
+  border: solid;
+}
+header img {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+}
+
+.datosPersonale {
+  display: flex;
+  flex-direction: column;
+}
+.datosPersonale h3 {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
+.datosPersonale ul li span {
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+.formacionAcademica {
+  display: flex;
+  flex-direction: column;
+}
+.formacionAcademica h3 {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
+.formacionAcademica ul li span {
+  font-weight: bold;
+}
+
+.experienciaLaboral {
+  display: flex;
+  flex-direction: column;
+}
+.experienciaLaboral h3 {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
+.experienciaLaboral ul li span {
+  font-weight: bold;
+}
+.experienciaLaboral div {
+  display: flex;
+  flex-direction: row;
+}
+.experienciaLaboral .cuando ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.experienciaLaboral .porque ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer {
+  display: flex;
+  background-color: gray;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+footer div {
+  display: flex;
+  gap: 2rem;
+}/*# sourceMappingURL=body.css.map */
