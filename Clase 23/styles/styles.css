@@ -1,0 +1,189 @@
+header {
+  padding: 0.1% 2%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav p {
+  font-weight: bold;
+  font-size: 2rem;
+  width: 20%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul a {
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+nav ul a:hover {
+  color: #03faee;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: space-between;
+  height: 30rem;
+}
+.presentacion .parteA {
+  width: 50%;
+  padding: 0% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.presentacion .parteA .A1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 35%;
+}
+.presentacion .parteA .A1 h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+}
+.presentacion .parteA .A2 {
+  color: #8b8b8b;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.presentacion .parteA .A3 a {
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #03faee;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+}
+.presentacion .parteA .A3 a:hover {
+  color: white;
+}
+.presentacion .parteB {
+  width: 50%;
+  background: url(../assets/wireframe.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.descripccion {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 0.5rem;
+  padding: 1%;
+  margin-top: 2%;
+}
+.descripccion .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2%;
+  width: 20rem;
+}
+.descripccion .boxn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+.descripccion .boxn::before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -10;
+  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+  -webkit-animation: animate 6s linear infinite;
+          animation: animate 6s linear infinite;
+}
+.descripccion .boxt p {
+  font-weight: bold;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  margin-top: 10rem;
+}
+footer .iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .iconos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .iconos .boxn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+footer .iconos div::before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -10;
+  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+  -webkit-animation: animate 6s linear infinite;
+          animation: animate 6s linear infinite;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colores
+bg-primary: #03faee;
+bg-secondary: #f8f8f8;
+color-primary: #8b8b8b;
+2
+shadow: #92f7f2;*//*# sourceMappingURL=styles.css.map */

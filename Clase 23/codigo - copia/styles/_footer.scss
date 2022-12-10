@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    margin-top: 10rem;
+    .iconos{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boxn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid;
+            border-radius: 100%;
+            width: 2rem;
+            height: 2rem;
+            padding: .5rem;
+        }
+        div::before{
+            content: '';
+            width: 2rem;
+            height: 2rem;
+            padding: .5rem;
+            border-radius: 100%;
+            position: absolute;
+            z-index: -10;
+            background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+            animation: animate 6s linear infinite;
+        }
+    }
+}
